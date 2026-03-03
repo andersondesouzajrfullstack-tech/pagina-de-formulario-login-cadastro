@@ -67,7 +67,7 @@ Siga os passos abaixo para executar o projeto localmente:
 
 - 🔗 [Meu LinkedIn](https://www.linkedin.com/in/anderson-de-souza-j%C3%BAnior-4791463b3/)
 - 💻 [Meu GitHub](https://github.com/andersondesouzajrfullstack-tech/form-minecraft) 
-- 📧 [Meu E-mail]: andersondesouzajr.fullstack@gmail.com
+- 📧 Meu E-mail: andersondesouzajr.fullstack@gmail.com
 - 🌐 Portfólio (Em breve)
 
 ## 🧾 Minha Filosofia
