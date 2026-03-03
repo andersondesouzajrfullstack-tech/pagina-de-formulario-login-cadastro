@@ -47,8 +47,7 @@ sejam preenchidos corretamente, evitando dados incompletos ou incorretos no sist
 
 🔴 **Visualização em Tempo Real:**
 
-- 🚀 [Acessar via Vercel](COLE_AQUI_SEU_LINK_DA_VERCEL)
-- 🌍 [Acessar via GitHub Pages](COLE_AQUI_SEU_LINK_DO_GITHUB_PAGES)
+- 🌍 [Acessar via GitHub Pages]( https://andersondesouzajrfullstack-tech.github.io/pagina-de-formulario-login-cadastro/)
 
 > Permite que recrutadores explorem e testem o projeto diretamente no navegador.
 
