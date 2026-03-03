@@ -1,6 +1,6 @@
 # 📝 Projeto: Página de Formulário de Login/Cadastro Temático Minecraft
 
-![Minecraft Banner](Formulario-login-cadastro/src/imagens/Screenshot-formulário-de-login-cadastro.png)
+![Minecraft Banner](src/imagens/Screenshot-formulário-de-login-cadastro.png)
 
 👨‍💻 **Autor:** Anderson de Souza Júnior | Desenvolvedor Fullstack (Em formação)  
 💻 **Tecnologias:** VS Code, HTML5, CSS3, Flexbox e JS básico  
