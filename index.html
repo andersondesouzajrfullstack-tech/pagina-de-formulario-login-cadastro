@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--ADICIONANDO META TAG SEO SEARCH ENGINE OPTIMIZATION: -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Desenvolvedor Fullstack - Anderson de souza júnior">
+    <meta name="description" content="Página de formulário login/cadastro com validação de dados js básica ">
+    <meta name="keywords" content="HTML/CSS/JS,FLEXBOX sendo aplicado na página de formulario de login/cadastro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ADICIONANDO UMA FOLHA DE ESTILO CASCATA PELA ESTILIZACAO DA PAGINA: -->
+    <link rel="stylesheet" href="src/styles.css">
+
+    <!--ADICIONANDO UM RESPONSIVIDADE.CSS PARA FUNCIONALIDADE RESPONSIVIDADE:-->
+    <link rel="stylesheet" href="src/responsividade.css">
+
+     <!--ADICIONANDO UMA FOLHA DE ESTILO CASCATA RESET DA PAGINA: -->
+    <link rel="stylesheet" href="src/reset.css">
+
+    <!-- ADICIONANDO UMA ICONE NA NOVA GUIA OU NA PAGINA DE INICIO:-->
+    <link rel="shortcut icon" href="src/favicons/icone-validacao-de-dados.png" type="image/x-icon">
+
+    <title>Página de Formulário de login</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="nome-da-pagina">
+            <h2>Desenvolvedor Fullstack</h2>
+        </div>
+
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#meus-contatos">Meus contatos</a></li>
+                <li><a href="#sair">Sair</a></li>
+                <button class="menu" id="menu">&#9776;</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulario-centro">
+            <form class="formulario">
+
+                <div class="logo-imagem">
+                    <img src="src/icones/account-minecraft-icon.png" alt="Imagem de logo do creeper"
+                        title="Imagem de logo do creeper">
+                </div>
+
+                <h2>Entrar na conta:</h2>
+
+                <label for="nome">Nome de usuário/email:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome de usuario/Email" 
+                required>
+                
+                <span class="error usuario-email" id="error-usuario-email">O máximo de caracteres 20 </span>
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Senha" 
+                required>
+
+                <span class="error senha" id="error-senha">Senha está incorreta </span>
+
+                <a href="criar-conta.html">Criar uma conta !</a>
+
+                <button class="btn-submit" type="submit">Entrar</button>  
+
+            </form>
+        </div>
+    </main>
+     
+    <!-- Adicionando uma validao-de-dados.js basica para o formulario: -->
+    <script src="validacao-de-dados.js"></script>
+
+</body>
+
+</html>
